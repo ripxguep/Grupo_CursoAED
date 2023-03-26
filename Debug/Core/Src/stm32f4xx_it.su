@@ -1,0 +1,7 @@
+../Core/Src/stm32f4xx_it.c:78:6:SysTick_Handler	8	static
+../Core/Src/stm32f4xx_it.c:85:6:CAN1_TX_IRQHandler	8	static
+../Core/Src/stm32f4xx_it.c:90:6:CAN1_RX0_IRQHandler	8	static
+../Core/Src/stm32f4xx_it.c:96:6:CAN1_SCE_IRQHandler	8	static
+../Core/Src/stm32f4xx_it.c:102:6:TIM6_DAC_IRQHandler	8	static
+../Core/Src/stm32f4xx_it.c:111:6:I2Cx_EV_IRQHandler	8	static
+../Core/Src/stm32f4xx_it.c:115:6:I2Cx_ER_IRQHandler	8	static

@@ -1,5 +1,0 @@
-"./Src/10.o"
-"./Src/sysmem.o"
-"./Startup/startup_stm32f429zitx.o"
-"./drivers/src/stm32429zi_I2C.o"
-"./drivers/src/stm32429zi_gpio.o"
