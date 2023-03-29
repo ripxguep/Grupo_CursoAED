@@ -86,12 +86,12 @@ void HAL_MspInit(void)
 	PA11     ------> CAN1_RX
 	PA12     ------> CAN1_TX
 	*/
-	GPIO_InitStruct.Pin = GPIO_PIN_11|GPIO_PIN_12;
+	GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1;
 	GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
 	GPIO_InitStruct.Pull = GPIO_NOPULL;
 	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
 	GPIO_InitStruct.Alternate = GPIO_AF9_CAN1;
-	HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+	HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
 	HAL_NVIC_SetPriority(CAN1_TX_IRQn,15,0);
 	HAL_NVIC_SetPriority(CAN1_RX0_IRQn,15,0);
